@@ -1,3 +1,9 @@
-/**
- * Created by Gorky on 19.08.2017.
- */
+
+$(document).ready(function(){
+    $('.your-class').slick({
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 1
+    });
+});
+		
